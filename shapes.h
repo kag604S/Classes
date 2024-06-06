@@ -17,7 +17,8 @@ public:
     Square(int length = 0);
     int getLength()const;
     void setLength(int length);
-    int getArea() const;
+    int getArea()const;
+    int getPerimeter()const;
 };
 
 class Circle
@@ -31,7 +32,7 @@ public:
     double getRadius()const;
     void setRadius(double radius);
     double getArea()const;
-
+    double getPerimeter()const;
 };
 
 #endif //CLASSCIRCLE_SHAPES_H

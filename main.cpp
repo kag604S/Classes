@@ -14,7 +14,11 @@ int main()
     Circle circle;
     int ch;
 
-    cout << "Press 1 or 2 on which shape's area you would like to calculate\n\n1.) Area of circle\n2.) Area of square" << endl;
+    cout << "Press 1 or 2 on which shape's area you would like to calculate\n\n"
+            "1.) Area of circle\n"
+            "2.) Area of square\n"
+            "3.)Perimeter of circle \n"
+            "4).Perimiter of square" << endl;
     cout << "\nEnter your choice: " << endl;
     cin >> ch;
 
@@ -34,6 +38,22 @@ int main()
             cin >> length;
             square.setLength(length);
             cout << "\n The Area of the square is "<< square.getArea();
+            break;
+        }
+        case 3:
+        {
+            cout << "\nEnter radius of the circle: ";
+            cin >> radius;
+            circle.setRadius(radius);
+            cout << "\nThe Perimeter of the circle is "<< circle.getPerimeter();
+            break;
+        }
+        case 4:
+        {
+            cout << "\nPlease Enter the length of the Square's side: ";
+            cin >> length;
+            square.setLength(length);
+            cout << "\n The Perimeter of the square is "<< square.getPerimeter();
             break;
         }
 

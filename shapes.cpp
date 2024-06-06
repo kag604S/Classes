@@ -3,8 +3,7 @@
 //
 
 
-#include <cmath>
-#include <iostream>
+
 #include "shapes.h"
 
 using namespace std;
@@ -25,6 +24,10 @@ double Circle::getArea() const
 {
     return radius * radius * 3.1415926;
 }
+double Circle::getPerimeter() const
+{
+    return 2 * radius * 3.1415926;
+}
 
 
 Square::Square(int len)
@@ -42,4 +45,8 @@ void Square::setLength(int len)
 int Square::getArea() const
 {
     return length * length;
+}
+int Square::getPerimeter() const
+{
+    return 4 * length ;
 }
