@@ -1,0 +1,3 @@
+D:/classcircle/cmake-build-debug/CMakeFiles/classcircle.dir
+D:/classcircle/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/classcircle/cmake-build-debug/CMakeFiles/rebuild_cache.dir

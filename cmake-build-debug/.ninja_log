@@ -1,0 +1,8 @@
+# ninja log v5
+3	452	7393640763800345	CMakeFiles/classcircle.dir/main.cpp.obj	fe1a9bce60d2a3f4
+6	471	7393640763770348	CMakeFiles/classcircle.dir/shapes.cpp.obj	7e7845586a0dfb30
+471	615	7393640765409883	classcircle.exe	b3f28f490bdcaf77
+3	237	7393640905370432	CMakeFiles/classcircle.dir/main.cpp.obj	fe1a9bce60d2a3f4
+238	314	7393640906101247	classcircle.exe	b3f28f490bdcaf77
+4	244	7393641669879254	CMakeFiles/classcircle.dir/main.cpp.obj	fe1a9bce60d2a3f4
+245	312	7393641670526061	classcircle.exe	b3f28f490bdcaf77
